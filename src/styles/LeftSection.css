@@ -1,0 +1,51 @@
+.leftSide {
+    width: 80%;
+    height: 100%;
+}
+
+.lContainer {
+    width: 100%;
+    height: 300px !important;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 50px 0 50px 0;
+}
+
+.keys {
+    width: 60%;
+    height: 100%;
+    margin-right: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+}
+
+#articleImg {
+    max-width: 350px;
+    object-fit: cover;
+}
+
+.keys h3 {
+    font-size: 2.3em;
+    font-weight: 600;
+    margin-bottom: 3%;
+}
+
+.keys .author {
+    margin-bottom: 2%;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.keys .description {
+    font-size: 15px;
+    line-height: 30px;
+    letter-spacing: 1px;
+    font-weight: 600;
+}
+
+a {
+    color: black;
+}

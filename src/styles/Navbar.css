@@ -1,0 +1,23 @@
+.navbar {
+    background-color: blue;
+    padding: 30px 10px;
+    height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+
+}
+
+.navbar img {
+    width: 65px;
+}
+
+.navbar h4 {
+    color: white;
+}
+
+.navbar a {
+    color: white;
+    text-decoration: none;
+}
+

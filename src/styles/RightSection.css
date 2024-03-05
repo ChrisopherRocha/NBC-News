@@ -1,0 +1,18 @@
+.rightSide {
+    width: 20%;
+    height: 100%;
+}
+
+ul {
+    margin-top: 100px;
+}
+
+
+li::marker {
+    color: blue;
+    font-size: 2em;
+  }
+
+li {
+    line-height: 33px;
+}

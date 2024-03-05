@@ -1,0 +1,8 @@
+right section has titles
+
+
+left section has 
+- titles
+- author
+- urlToImage
+- description
