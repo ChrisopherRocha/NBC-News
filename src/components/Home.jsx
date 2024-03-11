@@ -9,7 +9,7 @@ const Home = () => {
   const [headlines, setHeadlines] = useState([])
 
   useEffect(() => {
-    fetch('https://newsapi.org/v2/everything?q=Apple&sortBy=popularity&apiKey=')
+    fetch('https://newsapi.org/v2/everything?q=Apple&sortBy=popularity&apiKey=0fdf6e871e404913901e5b8d9d25f502')
       .then(response => response.json())
       .then(data => {
         setArticles(data.articles);
@@ -20,7 +20,7 @@ const Home = () => {
   }, []);
 
   useEffect(() => {
-    fetch('https://newsapi.org/v2/top-headlines?country=us&apiKey=')
+    fetch('https://newsapi.org/v2/top-headlines?country=us&apiKey=0fdf6e871e404913901e5b8d9d25f502')
       .then(response => response.json())
       .then(data => {
         setHeadlines(data.articles);
